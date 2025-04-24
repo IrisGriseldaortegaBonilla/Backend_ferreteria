@@ -71,5 +71,6 @@ export const registrarProducto = async (req, res) => {
       mensaje: 'Ha ocurrido un error al registrar el producto.',
       error: error.message
     });
+    
   }
 };
