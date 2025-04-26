@@ -16,8 +16,6 @@ CREATE TABLE Clientes (
     cedula VARCHAR(14)
 );
 
-select * from usuarios;
-
 -- Tabla Empleados: almacena información de los empleados
 CREATE TABLE Empleados (
     id_empleado INT AUTO_INCREMENT PRIMARY KEY,

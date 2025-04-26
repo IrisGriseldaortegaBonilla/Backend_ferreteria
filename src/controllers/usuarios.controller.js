@@ -64,8 +64,6 @@ export const registrarUsuario = async (req, res) => {
   }
 };
 
-import { pool } from '../config/database.js';
-
 // Eliminar un usuario por su ID
 export const eliminarUsuario = async (req, res) => {
   try {
